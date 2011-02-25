@@ -1,6 +1,6 @@
 package Mason::Plugin::PSGIHandler::Extra::StackTrace;
 BEGIN {
-  $Mason::Plugin::PSGIHandler::Extra::StackTrace::VERSION = '0.01';
+  $Mason::Plugin::PSGIHandler::Extra::StackTrace::VERSION = '0.02';
 }
 use strict;
 use warnings;

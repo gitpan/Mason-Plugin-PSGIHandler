@@ -22,9 +22,9 @@ no_index:
 requires:
   Devel::StackTrace: 0
   File::ShareDir: 0
-  Mason: 2.00
+  Mason: 2.02
   Try::Tiny: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Mason-Plugin-PSGIHandler
   repository: git://github.com/jonswar/perl-mason-plugin-psgihandler.git
-version: 0.01
+version: 0.02

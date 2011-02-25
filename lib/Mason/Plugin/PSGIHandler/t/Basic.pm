@@ -1,6 +1,6 @@
 package Mason::Plugin::PSGIHandler::t::Basic;
 BEGIN {
-  $Mason::Plugin::PSGIHandler::t::Basic::VERSION = '0.01';
+  $Mason::Plugin::PSGIHandler::t::Basic::VERSION = '0.02';
 }
 use Test::Class::Most parent => 'Mason::Test::Class';
 use Mason::Util qw(trim);
@@ -94,7 +94,7 @@ b = <% $.b %>
 c = <% join(",", @{$.c}) %>
 d = <% join(",", @{$.d}) %>
 
-% my $args = $.cmeta->args;
+% my $args = $.args;
 <% Mason::Util::dump_one_line($args) %>
 ',
         expect_content => <<EOF,

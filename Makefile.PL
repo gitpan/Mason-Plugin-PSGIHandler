@@ -31,10 +31,10 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Devel::StackTrace' => '0',
     'File::ShareDir' => '0',
-    'Mason' => '2.00',
+    'Mason' => '2.02',
     'Try::Tiny' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }

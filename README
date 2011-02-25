@@ -160,3 +160,24 @@ REQUEST METHODS
             $m->res->status(404);
             $m->clear_and_abort();
 
+SUPPORT
+    The mailing list for Mason and Mason plugins is
+    mason-users@lists.sourceforge.net. You must be subscribed to send a
+    message. To subscribe, visit
+    https://lists.sourceforge.net/lists/listinfo/mason-users.
+
+    You can also visit us at `#mason' on irc:.
+
+    Bugs and feature requests will be tracked at RT:
+
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Mason-Plugin-PSGIHandler
+        bug-mason-plugin-psgihandler@rt.cpan.org
+
+    The latest source code can be browsed and fetched at:
+
+        http://github.com/jonswar/perl-mason-plugin-psgihandler
+        git clone git://github.com/jonswar/perl-mason-plugin-psgihandler.git
+
+SEE ALSO
+    Mason, http://plackperl.org/
+

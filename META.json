@@ -29,7 +29,7 @@
          "requires" : {
             "Devel::StackTrace" : 0,
             "File::ShareDir" : 0,
-            "Mason" : "2.00",
+            "Mason" : "2.02",
             "Try::Tiny" : 0
          }
       },
@@ -53,6 +53,6 @@
          "web" : "https://github.com/jonswar/perl-mason-plugin-psgihandler"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 
