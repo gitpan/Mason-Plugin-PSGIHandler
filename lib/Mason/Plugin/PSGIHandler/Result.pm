@@ -1,6 +1,6 @@
 package Mason::Plugin::PSGIHandler::Result;
 BEGIN {
-  $Mason::Plugin::PSGIHandler::Result::VERSION = '0.02';
+  $Mason::Plugin::PSGIHandler::Result::VERSION = '0.03';
 }
 use Mason::PluginRole;
 

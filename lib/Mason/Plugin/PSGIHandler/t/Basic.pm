@@ -1,6 +1,6 @@
 package Mason::Plugin::PSGIHandler::t::Basic;
 BEGIN {
-  $Mason::Plugin::PSGIHandler::t::Basic::VERSION = '0.02';
+  $Mason::Plugin::PSGIHandler::t::Basic::VERSION = '0.03';
 }
 use Test::Class::Most parent => 'Mason::Test::Class';
 use Mason::Util qw(trim);

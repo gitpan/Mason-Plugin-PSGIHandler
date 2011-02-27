@@ -1,6 +1,6 @@
 package Mason::Plugin::PSGIHandler;
 BEGIN {
-  $Mason::Plugin::PSGIHandler::VERSION = '0.02';
+  $Mason::Plugin::PSGIHandler::VERSION = '0.03';
 }
 use Moose;
 with 'Mason::Plugin';

@@ -1,6 +1,6 @@
 package Mason::Plugin::PSGIHandler::Interp;
 BEGIN {
-  $Mason::Plugin::PSGIHandler::Interp::VERSION = '0.02';
+  $Mason::Plugin::PSGIHandler::Interp::VERSION = '0.03';
 }
 use Mason::Plack::Request;
 use Mason::PluginRole;

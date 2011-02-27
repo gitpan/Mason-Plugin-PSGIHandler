@@ -30,11 +30,12 @@ my %WriteMakefileArgs = (
   'NAME' => 'Mason::Plugin::PSGIHandler',
   'PREREQ_PM' => {
     'Devel::StackTrace' => '0',
+    'File::Path' => '0',
     'File::ShareDir' => '0',
     'Mason' => '2.02',
     'Try::Tiny' => '0'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }
