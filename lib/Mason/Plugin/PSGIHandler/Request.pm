@@ -1,6 +1,6 @@
 package Mason::Plugin::PSGIHandler::Request;
 BEGIN {
-  $Mason::Plugin::PSGIHandler::Request::VERSION = '0.03';
+  $Mason::Plugin::PSGIHandler::Request::VERSION = '0.04';
 }
 use Mason::Plack::Response;
 use Mason::PluginRole;

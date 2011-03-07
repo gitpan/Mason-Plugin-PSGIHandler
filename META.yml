@@ -23,9 +23,9 @@ requires:
   Devel::StackTrace: 0
   File::Path: 0
   File::ShareDir: 0
-  Mason: 2.02
+  Mason: 2.05
   Try::Tiny: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Mason-Plugin-PSGIHandler
   repository: git://github.com/jonswar/perl-mason-plugin-psgihandler.git
-version: 0.03
+version: 0.04

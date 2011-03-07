@@ -63,7 +63,7 @@ DESCRIPTION
     value will be kept, as per Hash::MultiValue. However, if the
     corresponding attribute in the page component is declared an `ArrayRef',
     then all values will be kept and passed in as an arrayref. For example,
-    if the page component `/foo/bar.m' has these declarations:
+    if the page component `/foo/bar.mc' has these declarations:
 
         <%args>
         $.a

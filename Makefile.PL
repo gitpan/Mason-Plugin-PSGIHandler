@@ -32,10 +32,10 @@ my %WriteMakefileArgs = (
     'Devel::StackTrace' => '0',
     'File::Path' => '0',
     'File::ShareDir' => '0',
-    'Mason' => '2.02',
+    'Mason' => '2.05',
     'Try::Tiny' => '0'
   },
-  'VERSION' => '0.03',
+  'VERSION' => '0.04',
   'test' => {
     'TESTS' => 't/*.t'
   }

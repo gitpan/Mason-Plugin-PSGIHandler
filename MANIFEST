@@ -15,7 +15,7 @@ lib/Mason/Plugin/PSGIHandler/Request.pm
 lib/Mason/Plugin/PSGIHandler/Result.pm
 lib/Mason/Plugin/PSGIHandler/t/Basic.pm
 share/mason_psgi_setup.skel/app.psgi
-share/mason_psgi_setup.skel/comps/Base.m
-share/mason_psgi_setup.skel/comps/index.m
+share/mason_psgi_setup.skel/comps/Base.mc
+share/mason_psgi_setup.skel/comps/index.mc
 t/01-use.t
 t/Basic.t
