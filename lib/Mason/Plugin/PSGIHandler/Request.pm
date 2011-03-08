@@ -1,13 +1,13 @@
 package Mason::Plugin::PSGIHandler::Request;
 BEGIN {
-  $Mason::Plugin::PSGIHandler::Request::VERSION = '0.04';
+  $Mason::Plugin::PSGIHandler::Request::VERSION = '0.05';
 }
 use Mason::Plack::Response;
 use Mason::PluginRole;
 use Try::Tiny;
 
-has 'req' => ( required => 1, isa => 'Object' );
-has 'res' => ( lazy_build => 1 );
+has 'req' => ( is => 'ro', required => 1, isa => 'Object' );
+has 'res' => ( is => 'ro', lazy_build => 1 );
 
 method _build_res () {
     return Mason::Plack::Response->new();
