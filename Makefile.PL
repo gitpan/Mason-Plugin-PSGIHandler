@@ -15,7 +15,6 @@ my %WriteMakefileArgs = (
   'AUTHOR' => 'Jonathan Swartz <swartz@pobox.com>',
   'BUILD_REQUIRES' => {
     'HTTP::Request::Common' => '0',
-    'Plack::Test' => '0',
     'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
@@ -33,9 +32,10 @@ my %WriteMakefileArgs = (
     'File::Path' => '0',
     'File::ShareDir' => '0',
     'Mason' => '2.05',
+    'Plack' => '0.9910',
     'Try::Tiny' => '0'
   },
-  'VERSION' => '0.05',
+  'VERSION' => '0.06',
   'test' => {
     'TESTS' => 't/*.t'
   }

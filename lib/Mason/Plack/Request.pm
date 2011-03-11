@@ -1,6 +1,6 @@
 package Mason::Plack::Request;
 BEGIN {
-  $Mason::Plack::Request::VERSION = '0.05';
+  $Mason::Plack::Request::VERSION = '0.06';
 }
 use Mason::Moose;
 extends 'Plack::Request';
@@ -21,7 +21,7 @@ L<Mason::Plugin::PSGIHandler|Mason::Plugin::PSGIHandler>.
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 AUTHOR
 
